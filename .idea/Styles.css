@@ -19,11 +19,21 @@ a{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 80px;
 }
 .wrapper{
     display: flex;
     align-items: center;
     gap: 30px;
-
+}
+.logo a{
+    font-weight: 700;
+    font-size: 1.5em;
+    letter-spacing: 2px;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
 }
 
