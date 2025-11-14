@@ -12,6 +12,7 @@ body{
 a{
     text-decoration: none;
     color: #ffffff;
+    cursor: pointer;
 }
 .main-header{
     background-color: #000000;
@@ -73,7 +74,7 @@ nav ul a:hover{
 .container{
     display: flex;
     background-color: orangered;
-    height: 100vh;
+    height: 90vh;
     align-items: center;
     background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url("/.idea/img/Baskethoop.jpg");
     background-size: cover;
@@ -119,17 +120,36 @@ nav ul a:hover{
 }
 .album-buttons{
     display: flex;
-    gap: 23px;
+    gap: 5px;
     font-size: 1rem;
 }
 .album-buttons .btn{
-    padding: 8px 10px;
+    padding: 8px 12px;
+    border-right: 2px solid #ffffff;
 }
-.album-buttons .stream, .album-buttons .download{
-    border-right: 1px solid white;
+.album-buttons .buy{
+    border: none;
 }
-.
 .album-buttons .btn:hover{
     opacity: 0.7;
     transition:  0.3s ease;
+}
+.music{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.release{
+    background-color: #000000;
+    color: #ffffff;
+    margin: 20px auto;
+    width: 15rem;
+    height: 2.7rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
 }
