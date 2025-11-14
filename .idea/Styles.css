@@ -82,37 +82,35 @@ nav ul a:hover{
     position: relative;
 }
 .htxt{
-    background-color: lightsalmon;
     color: white;
     position: absolute;
-    bottom: 120px;
+    bottom: 80px;
     left: 80px;
-    max-width: 80%;
+    max-width: 800px;
     color: white;
 }
 .line{
     display: block;
-    width: 60px;
+    width: 210px;
     height: 3px;
     background-color: white;
     align-items: center;
 }
 .album-topic{
     display: flex;
-    background-color: red;
-    font-size: 1.2rem;
-    font-weight: 400;
+    font-size: 1rem;
+    font-weight: 150;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 20px;
+    letter-spacing: 5px;
+    margin-bottom: 30px;
     align-items: center;
     gap: 15px;
 }
 .album-title{
-    background-color: yellow;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-weight: 800;
     font-size: 4.01em;
+    letter-spacing: 7px;
     transform: scaley(1.2); /* Scales the text 115% wider */
     display: inline-block;  /* Required for the transform to work reliably */
 
@@ -120,6 +118,9 @@ nav ul a:hover{
     transform-origin: left;
 }
 .album-buttons{
-    background-color: blue;
-    margin-bottom: 20px;
+    display: flex;
+    gap: 23px;
+}
+.album-buttons .btn{
+
 }
