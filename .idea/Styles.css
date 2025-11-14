@@ -70,4 +70,56 @@ nav ul a:hover{
     opacity: 0.7;
     transition:  0.3s ease;
 }
+.container{
+    display: flex;
+    background-color: orangered;
+    height: 100vh;
+    align-items: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url("/.idea/img/Baskethoop.jpg");
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.htxt{
+    background-color: lightsalmon;
+    color: white;
+    position: absolute;
+    bottom: 120px;
+    left: 80px;
+    max-width: 80%;
+    color: white;
+}
+.line{
+    display: block;
+    width: 60px;
+    height: 3px;
+    background-color: white;
+    align-items: center;
+}
+.album-topic{
+    display: flex;
+    background-color: red;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+    align-items: center;
+    gap: 15px;
+}
+.album-title{
+    background-color: yellow;
+    margin-bottom: 20px;
+    font-weight: 800;
+    font-size: 4.01em;
+    transform: scaley(1.2); /* Scales the text 115% wider */
+    display: inline-block;  /* Required for the transform to work reliably */
 
+    /* Optional: Shift the text slightly to re-align it after stretching */
+    transform-origin: left;
+}
+.album-buttons{
+    background-color: blue;
+    margin-bottom: 20px;
+}
